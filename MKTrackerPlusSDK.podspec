@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/aadyx2007@163.com/MKTrackerPlusSDK'
+  s.homepage         = 'https://github.com/MokoTracker-APP/iOS-SDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aadyx2007@163.com' => 'aadyx2007@163.com' }
-  s.source           = { :git => 'https://github.com/aadyx2007@163.com/MKTrackerPlusSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MokoTracker-APP/iOS-SDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'MKTrackerPlusSDK/Classes/**/*'
+#  s.public_header_files = 'MKTrackerPlusSDK/Classes/MKContactTrackerSDK.h'
   
   # s.resource_bundles = {
   #   'MKTrackerPlusSDK' => ['MKTrackerPlusSDK/Assets/*.png']
@@ -38,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MKBLEBaseModule'
 end
