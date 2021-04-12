@@ -7,9 +7,9 @@
 //
 
 #import "MKTrackerCentralManager.h"
-#import <MKBLEBaseModule/MKBLEBaseSDKDefines.h>
-#import <MKBLEBaseModule/MKBLEBaseCentralManager.h>
-#import <MKBLEBaseModule/MKBLEBaseSDKAdopter.h>
+#import "MKBLEBaseSDKDefines.h"
+#import "MKBLEBaseCentralManager.h"
+#import "MKBLEBaseSDKAdopter.h"
 
 #import "MKTrackerModel.h"
 #import "MKTrackerPeripheral.h"

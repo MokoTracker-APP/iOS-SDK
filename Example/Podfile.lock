@@ -13,9 +13,10 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.5.0)
+  - MKBaseBleModule (1.0.4)
   - MKBLEBaseModule (1.1.0)
-  - MKTrackerPlusSDK (0.1.0):
-    - MKBLEBaseModule
+  - MKTrackerPlusSDK (1.0.0):
+    - MKBaseBleModule
   - MLInputDodger (1.5.2)
   - mokoLibrary (1.1.0):
     - mokoLibrary/base (= 1.1.0)
@@ -107,6 +108,7 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - MKBaseBleModule
     - MKBLEBaseModule
     - MLInputDodger
     - mokoLibrary
@@ -128,8 +130,9 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  MKBaseBleModule: 2c18242ab1c5267ed7b4ec2e3521ea4f9750e93e
   MKBLEBaseModule: 2998ae4b15771b739c6cfbecc1bc66bf7ff6dff5
-  MKTrackerPlusSDK: 6f93f1a3d0a85a7a5bde24f5cd6c962def9ad853
+  MKTrackerPlusSDK: 98d62e7249df218b749eb79eb7741e7cffdf5aa1
   MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
   mokoLibrary: f2bbdd52a5f3d9a6cc02b150ef0e8b29ff871ffd
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196

@@ -9,10 +9,10 @@
 #import "MKTrackerOperationDataAdopter.h"
 #import <CoreBluetooth/CoreBluetooth.h>
 
-#import <MKBLEBaseModule/MKBLEBaseSDKAdopter.h>
-#import <MKBLEBaseModule/MKBLEBaseSDKDefines.h>
-#import "MKTrackerSDKDefines.h"
+#import "MKBLEBaseSDKAdopter.h"
+#import "MKBLEBaseSDKDefines.h"
 
+#import "MKTrackerSDKDefines.h"
 #import "MKTrackerOperationID.h"
 
 NSString *const mk_communicationDataNum = @"mk_communicationDataNum";

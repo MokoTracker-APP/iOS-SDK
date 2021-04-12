@@ -8,7 +8,7 @@
 
 #import "MKTrackerAdopter.h"
 
-#import <MKBLEBaseModule/MKBLEBaseSDKAdopter.h>
+#import "MKBLEBaseSDKAdopter.h"
 
 @implementation MKTrackerAdopter
 

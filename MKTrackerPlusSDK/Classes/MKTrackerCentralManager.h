@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <MKBLEBaseModule/MKBLEBaseDataProtocol.h>
+#import <MKBaseBleModule/MKBLEBaseDataProtocol.h>
 
 #import "MKTrackerOperationID.h"
 

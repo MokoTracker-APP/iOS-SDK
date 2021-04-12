@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MKTrackerOperationID.h"
-#import <MKBLEBaseModule/MKBLEBaseDataProtocol.h>
+#import <MKBaseBleModule/MKBLEBaseDataProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

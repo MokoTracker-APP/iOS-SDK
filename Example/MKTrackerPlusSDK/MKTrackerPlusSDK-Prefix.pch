@@ -11,7 +11,7 @@
 #import "MKBaseModule.h"
 #import "MKAttributedString.h"
 #import "MKBaseTableView.h"
-#import <MKBLEBaseModule/MKBLEBaseSDK.h>
+#import <MKBaseBleModule/MKBLEBaseSDK.h>
 
 #import "MKContactTrackerSDK.h"
 
